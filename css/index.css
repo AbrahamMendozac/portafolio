@@ -25,7 +25,7 @@ footer {
 
 .presentacion {
   background-color: #333333;
-  padding: 102px 0 50px;
+  padding: 102px 0 16px;
 }
 .presentacion h1 {  
   text-align: center;
@@ -40,15 +40,16 @@ footer {
 
 .inicio {
   background-color: #1c1c1c;
-  padding: 32px 0;
+  padding: 16px 10% 24px;
 }
 .inicio-detalle {
   padding: 32px 0;
 }
 .inicio h2 {
-  margin: 0 0 15px 0;
+  margin: 0 auto 15px;
   color: white;
   text-align: center;
+  width: 90%;
 }
 .inicio-content {
   display: flex;
@@ -61,7 +62,7 @@ footer {
 }
 .inicio-icon-fondo {
   position: absolute;
-  right: 5%;
+  right: 14%;
   padding: 0 6%;
   height: 100px;
   background: black;
@@ -72,7 +73,7 @@ footer {
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 5%;
+  right: 14%;
   height: 100px;
   width: 12%;
 }
@@ -80,7 +81,7 @@ footer {
 
 .clientes {
   background-color: #333333;
-  padding: 32px 10% 52px;
+  padding: 42px 10% 52px;
 }
 .clientes h1 {
   text-align: center;
@@ -113,6 +114,10 @@ footer {
 .menu-item {
   padding: 5px 0;
 }
+.menu .menu-item a {
+  color: black;
+  text-decoration: none;
+}
 .menu .menu-item p {
   margin: 0;
 }
@@ -120,6 +125,9 @@ footer {
   background: #333333;
   color: #ffbd00;
   padding: 5px;
+}
+.menu-item-seleccionado a {
+  color: #ffbd00 !important;
 }
 .menu-item-seleccionado svg {
   fill: #ffbd00;
@@ -159,6 +167,10 @@ footer {
   width: 90%;
   margin: 0 auto;
   display: flex;
+}
+.fotografia-item a {
+  color: white;
+  text-decoration: none;
 }
 .inicio-fotografia h3 {
   position: absolute;
@@ -215,7 +227,9 @@ footer {
 }
 .marca-fotos-2 {
   background-color: white;
-  margin: 0 5% 10px;
+  margin: 0 auto 10px;
+  width: 90%;
+  max-width: 720px;
 }
 
 
@@ -261,30 +275,27 @@ footer {
 .perfil-nombre-foto {
   background-color: #1c1c1c;
   text-align: center;
-  padding: 10% 5% 6%;
+  padding: 42px 5% 42px;
 }
 .perfil-nombre-foto h2{
   margin: 0;
   color: white;
-  padding: 0 0 5%;
+  padding: 0 0 32px;
 }
 .perfil-foto {
+  border: 2px solid white;
   border-radius: 50%;
-  border: solid;
-  border-block-color: white;
-  border-inline-color: white;
-
 }
 
 .perfil-dedicacion {
   background-color: #333333;
   text-align: center;
-  padding: 7% 10% 12%;
+  padding: 42px 10% 42px;
 }
 .perfil-dedicacion h3 {
   color: white;
   margin: 0;
-  padding: 0 0 10%;
+  padding: 0 0 20px;
 }
 .perfil-dedicacion p {
   color: white;
@@ -294,8 +305,7 @@ footer {
 
 .perfil-habilidades-experiencia {
   background-color: #1c1c1c;
-  padding: 50px;
-
+  padding: 50px 30px 96px;
 }
 .perfil-habilidades-experiencia h2 {
   color: #ffbd00;
@@ -304,6 +314,7 @@ footer {
 .perfil-habilidades-experiencia h3 {
   margin: 0;
   color: #ffbd00;
+  padding: 6% 0 6%
 }
 .caja-habilidades {
   max-width: 420px;
@@ -311,9 +322,7 @@ footer {
 }   
 .perfil-conocimientos {
   text-align: center;
-}
-.caja-level{
-  
+  padding: 0 0 4%;
 }
 .level-border {
   border-radius: 10px;
@@ -330,6 +339,7 @@ footer {
 }
 .perfil-experiencia {
   text-align: center;
+  padding: 65px 0 1%;
 }
 .perfil-habilidades-experiencia p {
   color: white;
