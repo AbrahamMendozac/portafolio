@@ -1,0 +1,378 @@
+
+body {
+  margin: 0;
+}
+
+
+footer {
+  background-color: #ffbd00;
+  background-color: #333333;
+  background-color: #1c1c1c;
+}
+
+
+.header {
+  z-index: 1;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.presentacion {
+  background-color: #333333;
+  padding: 102px 0 50px;
+}
+.presentacion h1 {  
+  text-align: center;
+  margin: 0;
+  color: #ffbd00;
+}
+.presentacion-logo {
+  margin: 0 auto;
+  display: block;
+}
+
+
+.inicio {
+  background-color: #1c1c1c;
+  padding: 32px 0;
+}
+.inicio-detalle {
+  padding: 32px 0;
+}
+.inicio h2 {
+  margin: 0 0 15px 0;
+  color: white;
+  text-align: center;
+}
+.inicio-content {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.inicio-foto {
+  height: 100px;
+  object-fit: cover;
+}
+.inicio-icon-fondo {
+  position: absolute;
+  right: 5%;
+  padding: 0 6%;
+  height: 100px;
+  background: black;
+  opacity: 0.5;
+}
+.inicio-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 5%;
+  height: 100px;
+  width: 12%;
+}
+
+
+.clientes {
+  background-color: #333333;
+  padding: 32px 10% 52px;
+}
+.clientes h1 {
+  text-align: center;
+  margin: 0; 
+  color: #ffbd00;
+  padding: 0;
+}
+.clientes-foto {
+  background: white;
+  padding: 16px 20%;
+  border-radius: 42px;
+  width: -webkit-fill-available;
+  max-width: 520px;
+  display: block;
+  margin: 36px auto;
+}  
+
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffbd00;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+  margin: 0 15%;
+  border-radius: 15px 15px 0 0;
+}
+.menu-item {
+  padding: 5px 0;
+}
+.menu .menu-item p {
+  margin: 0;
+}
+.menu-item-seleccionado {
+  background: #333333;
+  color: #ffbd00;
+  padding: 5px;
+}
+.menu-item-seleccionado svg {
+  fill: #ffbd00;
+}
+
+
+
+/* FOTOGRAFIA */
+
+
+.presentacion-2 {
+  background-color: #333333;
+  padding: 72px 0 20px;
+}
+.presentacion-2 h3 {
+  color: #ffbd00;
+  text-align: center;
+}
+.presentacion-2-icon {
+  position: absolute;
+  top: 62px;
+  left: 10px;
+  width: 12%;
+}
+.inicio-fotografia {
+  background-color: #1c1c1c;
+  padding: 0 0 80px;
+}
+.inicio-fotografia p {
+  padding: 40px 10% 45px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.fotografia-item {
+  max-width: 720px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.inicio-fotografia h3 {
+  position: absolute;
+  color: white;
+  margin: 50px 0 0 10%;
+}
+.fotografia-fotos {
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+  height: 142px;
+  opacity: 0.5;
+}
+
+
+
+
+/* FOTOMONTAJE */
+
+.inicio-fotomontaje {
+  background-color: #1c1c1c;
+  padding: 0 0 110px;
+}
+.inicio-fotomontaje p {
+  padding: 40px 10% 45px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.fotomontaje-fotos {
+  margin: 0 auto 10px;
+  display: block;
+  max-width: 720px;
+}
+
+
+
+/* IDENTIDAD DE MARCA */
+
+.inicio-marca {
+  background-color: #1c1c1c;
+  padding: 0 0 110px;
+}
+.inicio-marca p {
+  padding: 40px 10% 45px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.marca-fotos {
+  margin: 0 auto 10px;
+  display: block;
+  max-width: 720px;
+}
+.marca-fotos-2 {
+  background-color: white;
+  margin: 0 5% 10px;
+}
+
+
+
+/* DISEÑO PUBLICITARIO */
+
+
+.inicio-publicitario {
+  background-color: #1c1c1c;
+  padding: 0 0 110px;
+}
+.inicio-publicitario p {
+  padding: 40px 10% 45px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.publicitario-fotos {
+  margin: 0 auto 10px;
+  display: block;
+  max-width: 720px;
+}
+
+
+
+/* ESTILOS PARA RETRATO-BODA-ARQUITECTURA-PUBLICITARIA */
+
+.inicio-fotos {
+  background-color: #1c1c1c;
+  padding: 20px 0 80px;
+  
+}
+.fotos {
+  margin: 0 auto 20px;
+  display: block;
+  max-width: 720px;
+}
+
+
+
+/* PERFIL */
+
+.perfil-nombre-foto {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 10% 5% 6%;
+}
+.perfil-nombre-foto h2{
+  margin: 0;
+  color: white;
+  padding: 0 0 5%;
+}
+.perfil-foto {
+  border-radius: 50%;
+  border: solid;
+  border-block-color: white;
+  border-inline-color: white;
+
+}
+
+.perfil-dedicacion {
+  background-color: #333333;
+  text-align: center;
+  padding: 7% 10% 12%;
+}
+.perfil-dedicacion h3 {
+  color: white;
+  margin: 0;
+  padding: 0 0 10%;
+}
+.perfil-dedicacion p {
+  color: white;
+  margin: 0;
+  padding: 25px 0 10px;
+}
+
+.perfil-habilidades-experiencia {
+  background-color: #1c1c1c;
+  padding: 50px;
+
+}
+.perfil-habilidades-experiencia h2 {
+  color: #ffbd00;
+  margin: 0;
+}
+.perfil-habilidades-experiencia h3 {
+  margin: 0;
+  color: #ffbd00;
+}
+.caja-habilidades {
+  max-width: 420px;
+  margin: 0 auto;
+}   
+.perfil-conocimientos {
+  text-align: center;
+}
+.caja-level{
+  
+}
+.level-border {
+  border-radius: 10px;
+  height: 8px;
+  border: .5px solid #ffbd00;
+
+}
+.level {
+  background-color: #ffbd00;
+  height: 100%;
+  width: 70%;
+  border-radius: inherit;
+
+}
+.perfil-experiencia {
+  text-align: center;
+}
+.perfil-habilidades-experiencia p {
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* CONTACTO */
+
+.page-contacto {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 0 10% 70px;
+}
+.contacto-logo {
+  display: block;
+  margin: 0 auto;
+}
+.page-contacto hr {
+
+  border-top: 1px solid #ffbd00;
+  border-bottom: 1px solid #ffbd00;
+  margin: 0 10%;
+}
+.page-contacto h3 {
+  color: #ffbd00;
+}
+.page-contacto p {
+  color: white;
+  margin: 0;
+}
+.images-redes {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 16% 24px;
+
+}
+.page-contacto-foto {
+  padding: 2% 0 3%;
+}
+
