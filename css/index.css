@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Metropolis-regular";
+  src: url(../fonts/metropolis.regular.otf);
+}
+
+@font-face {
+  font-family: "Metropolis-bold";
+  src: url(../fonts/metropolis.bold.otf);
+}
+
+* {
+  font-family: Metropolis-regular;
+}
 
 body {
   margin: 0;
@@ -31,6 +44,7 @@ footer {
   text-align: center;
   margin: 0;
   color: #ffbd00;
+  font-family: Metropolis-bold
 }
 .presentacion-logo {
   margin: 0 auto;
@@ -45,7 +59,7 @@ footer {
 .inicio-detalle {
   padding: 32px 0;
 }
-.inicio h2 {
+.inicio h3 {
   margin: 0 auto 15px;
   color: white;
   text-align: center;
@@ -88,6 +102,7 @@ footer {
   margin: 0; 
   color: #ffbd00;
   padding: 0;
+  font-family: Metropolis-bold;
 }
 .clientes-foto {
   background: white;
@@ -281,6 +296,7 @@ footer {
   margin: 0;
   color: white;
   padding: 0 0 32px;
+  font-family: Metropolis-bold;
 }
 .perfil-foto {
   border: 2px solid white;
@@ -310,6 +326,7 @@ footer {
 .perfil-habilidades-experiencia h2 {
   color: #ffbd00;
   margin: 0;
+  font-family: Metropolis-bold;
 }
 .perfil-habilidades-experiencia h3 {
   margin: 0;
@@ -323,6 +340,7 @@ footer {
 .perfil-conocimientos {
   text-align: center;
   padding: 0 0 4%;
+  font-family: Metropolis-bold !important;
 }
 .level-border {
   border-radius: 10px;
@@ -336,6 +354,27 @@ footer {
   width: 70%;
   border-radius: inherit;
 
+}
+.level-photoshop {
+  width: 75%;
+}
+.level-lightroom {
+  width: 40%;
+}
+.level-illustrator {
+  width: 60%;
+}
+.level-premier {
+  width: 70%;
+}
+.level-after {
+  width: 20%;
+}
+.level-indesign {
+  width: 30%;
+}
+.level-adobe {
+  width: 20%;
 }
 .perfil-experiencia {
   text-align: center;
@@ -363,11 +402,9 @@ footer {
   display: block;
   margin: 0 auto;
 }
-.page-contacto hr {
-
-  border-top: 1px solid #ffbd00;
-  border-bottom: 1px solid #ffbd00;
-  margin: 0 10%;
+.linea {
+  border: 1px solid #ffbd00;
+  background: #ffbd00;
 }
 .page-contacto h3 {
   color: #ffbd00;
@@ -380,7 +417,9 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 0 16% 24px;
-
+}
+.icon-red-social {
+  margin: 0 8px;
 }
 .page-contacto-foto {
   padding: 2% 0 3%;
